@@ -1,0 +1,421 @@
+body{
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+   
+    height: 120px;
+    background-color: #fb6f92;
+  
+    
+    width: 1366px;
+    transition: none;
+
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: fixed;
+}
+.logo{
+    color:#14330c;
+    position: absolute;
+    left: 60px;
+    top: 28px;
+    font-size:75px;
+    -webkit-box-reflect : below 1px linear-gradient(transparent,#0004) ;
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 6s linear infinite;
+    
+}
+
+
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92% {
+        color: #0e3742;
+        text-shadow: none;
+    }
+      
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color:#fff;
+        text-shadow: 0 0 10px #03bcf4,
+                    0 0 20px #03bcf4,
+                    0 0 40px #03bcf4,
+                    0 0 80px #03bcf4,
+                    0 0 160px #03bcf4;
+    }
+
+
+}
+
+.home{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 800px;
+    padding-top: 40px;
+   
+}
+
+.play{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 910px;
+    margin-top: -32px;
+}
+
+.vis{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 1036px;
+    margin-top: -32px;
+}
+
+.abt{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 1192px;
+    margin-top: -32px;
+}
+
+.vid{
+    height: 1100px;
+    background-color: rgb(76, 37, 161);
+    padding-top: 30px;
+    margin-top: 2px;
+}
+
+.v1{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.v1t{
+    color: azure;
+  
+   padding-left: 42px;
+   padding-top: 10px;
+   font-size: 25px;
+}
+
+
+.vb{
+    padding-left: 500px;
+    margin-top: -1028px;
+    
+}
+
+.vbt{
+    color: azure;
+  
+   padding-left: 42px;
+   padding-top: 10px;
+   font-size: 25px;
+}
+
+
+
+.vc{
+    padding-left: 500px;
+    padding-top: 20px;
+   
+}
+
+.vct{
+    color: azure;
+  
+   padding-left: 42px;
+   padding-top: 10px;
+   font-size: 25px;
+}
+
+
+
+.vd{
+    padding-left: 500px;
+    padding-top: 20px;
+   
+}
+
+.vdt{
+    color: azure;
+  
+   padding-left: 42px;
+   padding-top: 10px;
+   font-size: 25px;
+}
+
+
+
+.ve{
+    padding-top: 20px;
+    padding-left: 500px;
+   
+}
+
+.vet{
+    color: azure;
+  
+   padding-left: 42px;
+   padding-top: 10px;
+   font-size: 25px;
+}
+
+
+.vf{
+    margin-top: -1028px;
+    padding-left: 920px;
+   
+}
+
+.vft{
+    color: azure;
+  
+   padding-left: 42px;
+   padding-top: 10px;
+   font-size: 25px;
+}
+
+
+
+.vg{
+    padding-top: 20px;
+    padding-left: 920px;
+   
+}
+
+.vgt{
+    color: azure;
+  
+   padding-left: 42px;
+   padding-top: 10px;
+   font-size: 25px;
+}
+
+
+
+.vh{
+    padding-top: 20px;
+    padding-left: 920px;
+   
+}
+
+.vht{
+    color: azure;
+  
+   padding-left: 42px;
+   padding-top: 10px;
+   font-size: 25px;
+}
+
+
+
+.vi{
+    padding-top: 20px;
+    padding-left: 920px;
+   
+}
+
+.vit{
+    color: azure;
+  
+   padding-left: 42px;
+   padding-top: 10px;
+   font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+.bottom{
+
+    height: 190px;
+  width: auto; 
+    margin-top: 10px;
+    padding-left: 16px;
+    background-color: #000000;
+   
+}
+
+
+
+.wha{
+    position: absolute;
+        display: inline;
+        margin-left:16px;
+        margin-top: 40px;
+    }
+    
+    .fb{
+        position: absolute;
+        display: inline;
+        margin-left: 100px;
+        margin-top: 49px;
+    }
+    
+    .inst{
+        position: absolute;
+        display: inline;
+        margin-left: 180px;
+        margin-top: 50px;
+    }
+    
+    .call{
+        position: absolute;
+        display: inline;
+        margin-left:280px;
+        margin-top: 52px;
+        right: auto;
+    }
+    
+    .mplc{
+       display: inline-block;
+       position: relative;
+       top: 139px;
+       left: 7px;
+        color: white;
+        font-size: 19px;
+        
+        
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px) and (min-width:300px) {
+    .head{
+        width: 390px;
+    }
+
+.logo{
+    font-size: 42px;
+    margin-left: -34px;
+}
+
+.vid{
+    height: 2140px;
+}
+
+.home{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 14px;
+    padding-top: 80px;
+}
+
+.play{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 96px;
+    margin-top: -27px;
+}
+
+.vis{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 190px;
+    margin-top: -27px;
+    
+}
+
+.abt{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 310px;
+    margin-top: -27px;
+}
+
+
+.v1{
+    padding-left: 20px;
+}
+
+
+.vb{
+    padding-left:20px ;
+    padding-top: 1050px;
+}
+
+.vc{
+    padding-left: 20px;
+}
+.vd{
+
+    padding-left: 20px;
+}
+
+.ve{
+    padding-left: 20px;
+}
+
+.bottom{
+
+    height: 210px;
+  width: auto; 
+    margin-top: 2px;
+   
+}
+
+
+
+.wha{
+    position: absolute;
+        display: inline;
+        margin-left:16px;
+        margin-top: 40px;
+    }
+    
+    .fb{
+        position: absolute;
+        display: inline;
+        margin-left: 100px;
+        margin-top: 49px;
+    }
+    
+    .inst{
+        position: absolute;
+        display: inline;
+        margin-left: 180px;
+        margin-top: 50px;
+    }
+    
+    .call{
+        position: absolute;
+        display: inline;
+        margin-left:280px;
+        margin-top: 52px;
+        right: auto;
+    }
+    
+    .mplc{
+       display: inline-block;
+       position: relative;
+       top: 139px;
+       left: 17px;
+        color: white;
+        font-size: 19px;
+        
+        
+        
+    }
+
+}
